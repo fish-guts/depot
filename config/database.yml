@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: depot_development
+  pool: 5
+  username: postgres
+  password: hoppus123
+test:
+  adapter: postgresql
+  encoding: unicode##
+  database: db\depot_test
+  pool: 5
+  username: postgres
+  password: hoppus123
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: db\depot_production
+  pool: 5
+  username: postgres
+  password: hoppus123
